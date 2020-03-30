@@ -6,7 +6,7 @@
 			</figure>
 		</div>
 		<div class="small-12 medium-8 large-9 columns">
-			<h4>The Guest House</h4>
+			<h4 style="margin-top:10px;">The Guest House</h4>
 			<p>We have a dedicated website for our guest house, including information on how to find us, pricing and availability and the specifics of the property.</p>
 			<p>To find out more, please visit the website:<br>
 			<i class="fas fa-external-link-alt"></i>&nbsp;<a href="https://www.lamouissone-maisondhotes.com" target="_blank" title="The Guesthouse">www.lamouissone-maisondhotes.com</a></p>
