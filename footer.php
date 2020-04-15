@@ -1,6 +1,6 @@
 					<footer class="footer" role="contentinfo">
 						<div id="inner-footer" class="row">
-							<div class="large-12 medium-12 columns">
+							<div class="large-8 medium-8 columns">
 								<!-- Add fig quote from old homepage -->
 								<section class="block--contact">
 									<section class="unit--contact">
@@ -26,7 +26,19 @@
 										Illustrations by <a href="https://www.billsandersonart.com" title="Bill Sanderson Art">Bill Sanderson</a></p>
 									</section>
 								</section>
+							</div>
+							<div class="large-4 medium-4 columns">
 								<section class="block--weather">
+									<section class="unit--weather">
+										<h2><span>Grasse</span>
+											<sup>Fr</sup>
+										</h2>
+										<h4>21 <sup>&#8451;</sup></h4>
+										<figure>
+											<!-- would you use this for an icon -->
+											<figcaption>Simple description</figcaption>
+										</figure>
+									</section>
 								</section>
 							</div>
 						</div><!-- end #inner-footer -->
