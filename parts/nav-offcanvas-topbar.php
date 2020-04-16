@@ -3,6 +3,8 @@
 <div class="top-bar" id="top-bar-menu">
 	<div class="top-bar-left float-left">
 		<ul class="menu">
+			<!-- For small: La Mouissone -->
+			<!-- For Medium + Up: La Mouissone Olive Grove & Gardens -->
 			<li class="menu-text"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></li>
 		</ul>
 	</div>
