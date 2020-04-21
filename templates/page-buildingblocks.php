@@ -106,19 +106,7 @@
         </div><!-- end .row -->
     <?php endif; ?>
 
-    <?php if(get_row_layout() == 'block_page_break'): // layout: Page Break - original ?>
-        <div class="row">
-            <div class="small-12 medium-12 large-12 columns">
-                <?php if( get_sub_field('unit_break') )
-                {
-                    echo '<hr class="article">';
-                }
-                ?>
-            </div>
-        </div>
-    <?php endif; ?>
-
-     <?php if(get_row_layout() == 'block_page_break_new'): // layout: Page Break - new ?>
+    <?php if(get_row_layout() == 'block_page_break_new'): // layout: Page Break - new ?>
         <div class="row">
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <?php if(get_sub_field('unit_separator') == "separator01"): ?>

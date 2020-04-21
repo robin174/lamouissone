@@ -1,3 +1,4 @@
+					</div><!-- end .texture-warpper -->
 					<footer class="footer" role="contentinfo">
 						<div id="inner-footer" class="row">
 							<div class="large-8 medium-8 columns">

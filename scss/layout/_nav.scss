@@ -57,8 +57,12 @@
 // 4. Slightly darker overlay on hover? 
 // 4. Icons for all? or just instagram?
 // 5. Make this universal so we can ship to other sites and becomes defacto?
+// 6. Added new div for texture and applied dark colour to body
 
 // Off Canvas
-.off-canvas-wrapper {
+.off-canvas {
 	background-color: $color-secondary-dark;
+	& a {
+		color: white;
+	}
 }

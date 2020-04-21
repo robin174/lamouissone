@@ -51,3 +51,4 @@
 						To see additional nav styles, visit the /parts directory -->
 						 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
 					</header><!-- end .header -->
+					<div class="texture-wrapper">

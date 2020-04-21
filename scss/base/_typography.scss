@@ -148,7 +148,8 @@ section.item--news-info {
 	} 
 }
 
-@include breakpoint(medium) {
+/* Larger than phablet */
+@media (min-width: 550px) {
 	h1 {
 		&.font--overlay-head {
 			line-height: 1;
