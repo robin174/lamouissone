@@ -91,25 +91,6 @@
         </div><!-- end .row -->
     <?php endif; ?>
 
-    <?php /* TO DELETE _ OLD
-    <?php if(get_row_layout() == 'block_box_ii'): // layout: Box II, The Repeater
-    $rows = get_sub_field('unit_box'); // Repeater Field Name ?>
-        <div class="row">
-            <?php if ($rows){
-                foreach($rows as $row){
-                    echo '<div class="small-12 medium-6 large-6 columns">';
-                    echo '<figure class="in-article">';
-                    echo '<img class="border-shadow" src="'.$row['item_image'].'" alt="">';
-                    echo '<figcaption class="caption">'.$row['item_caption'].'</figcaption>';
-                    echo '</figure>';
-                    echo '</div>';
-                }
-            } ?>
-        </div>
-    <?php endif; ?>
-    */ ?>
-
-
     <?php if(get_row_layout() == 'block_box_iii'): // layout: Box III, The Repeater ?>
         <div class="row">
             <?php if( have_rows('unit_box') ): // Repeater Field Name ?>
@@ -125,26 +106,7 @@
         </div><!-- end .row -->
     <?php endif; ?>
 
-    <?php /* TO DELETE _ OLD
-    <?php if(get_row_layout() == 'block_box_iii'): // layout: Box III, The Repeater
-    $rows = get_sub_field('unit_box'); // Repeater Field Name ?>
-        <div class="row">
-            <?php if ($rows){
-                foreach($rows as $row){
-                    echo '<div class="small-12 medium-4 large-4 columns">';
-                    echo '<figure class="in-article">';
-                    echo '<img class="border-shadow" src="'.$row['item_image'].'" alt="">';
-                    echo '<figcaption class="caption">'.$row['item_caption'].'</figcaption>';
-                    echo '</figure>';
-                    echo '</div>';
-                }
-            } ?>
-        </div>
-    <?php endif; ?>
-    ?*/ ?>
-
-    <!-- CHECK, if still live?  -->
-    <?php if(get_row_layout() == 'block_page_break'): // layout: Page Break - old ?>
+    <?php if(get_row_layout() == 'block_page_break'): // layout: Page Break - original ?>
         <div class="row">
             <div class="small-12 medium-12 large-12 columns">
                 <?php if( get_sub_field('unit_break') )
