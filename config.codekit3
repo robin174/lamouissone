@@ -760,22 +760,11 @@
 		"oAP": "/images/_notes/dwsync.xml",
 		"oF": 0
 		},
-	"/images/apple-icon-touch.png": {
-		"ft": 32768,
-		"iS": 2028,
-		"oA": 0,
-		"oAP": "/images/apple-icon-touch.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/favicon.png": {
+	"/images/favicon-general.png": {
 		"ft": 32768,
 		"iS": 258,
 		"oA": 0,
-		"oAP": "/images/favicon.png",
+		"oAP": "/images/favicon-general.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -845,6 +834,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/lm-apple-icon-touch.png": {
+		"ft": 32768,
+		"iS": 2028,
+		"oA": 0,
+		"oAP": "/images/lm-apple-icon-touch.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -925,6 +925,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/lm-win8-tile-icon.png": {
+		"ft": 32768,
+		"iS": 2028,
+		"oA": 0,
+		"oAP": "/images/lm-win8-tile-icon.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/lmgh-texture-additional.jpg": {
 		"ft": 16384,
 		"iS": 35783,
@@ -967,17 +978,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"/images/win8-tile-icon.png": {
-		"ft": 32768,
-		"iS": 2028,
-		"oA": 0,
-		"oAP": "/images/win8-tile-icon.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
 		"q": 100
 		},
 	"/index.php": {

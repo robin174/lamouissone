@@ -1,6 +1,6 @@
 <?php while(has_sub_field("new_page_content")): ?>
 
-    <?php if(get_row_layout() == 'block_subheading_h2'): // Subheading: h2 - done ?>
+    <?php if(get_row_layout() == 'block_subheading_h2'): // Subheading: h2?>
         <div class="row">
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <h2 class="font--subheading"><?php the_sub_field('unit_subheading_h2'); ?></h2>
@@ -8,7 +8,7 @@
         </div>
     <?php endif; ?>
 
-    <?php if(get_row_layout() == 'block_subheading_h3'): // Subheading: h3 - done ?>
+    <?php if(get_row_layout() == 'block_subheading_h3'): // Subheading: h3 ?>
         <div class="row">
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <h3 class="font--subheading"><?php the_sub_field('unit_subheading_h3'); ?></h3>
@@ -16,7 +16,7 @@
         </div>
     <?php endif; ?>
 
-    <?php if(get_row_layout() == 'block_introduction'): // Paragraph: Introduction - DONE ?>
+    <?php if(get_row_layout() == 'block_introduction'): // Paragraph: Introduction ?>
         <div class="row">
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <p class="intro"><?php the_sub_field('unit_introduction'); ?></p>
@@ -24,16 +24,15 @@
         </div>
     <?php endif; ?>
 
-    <?php if(get_row_layout() == 'block_paragraph'): // Paragraph: Full Width - DONE ?>
+    <?php if(get_row_layout() == 'block_paragraph'): // Paragraph: Full Width ?>
         <div class="row">
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <?php the_sub_field('unit_paragraph'); ?>
             </div>
         </div>
     <?php endif; ?>
-
     
-    <?php if(get_row_layout() == 'block_image'): // layout: Image / Caption - Full Width - DONE ?>
+    <?php if(get_row_layout() == 'block_image'): // layout: Image / Caption - Full Width?>
         <div class="row">
             <div class="small-12 medium-12 large-12 columns">
                 <figure class="in-article">
@@ -46,10 +45,12 @@
         </div>
     <?php endif; ?>
     
-
     
+    <?php /*  WHAT IS THIS
+    New listing? TO SORT OR DELETE 
     <?php if(get_row_layout() == 'block_listing'): // layout: Listing, The Repeater
     $rows = get_sub_field('unit_listing'); // Repeater Field Name ?>
+
     <!-- Will this be boxed? Add the option to 'box' -->
         <div class="row">
             <!-- Image (left) -->
@@ -72,10 +73,26 @@
                 <!-- To box? ie would standout in an article --> 
         </div>
     <?php endif; ?>
+    */ ?>
 
 
+    <?php if(get_row_layout() == 'block_box_ii'): // layout: Box II, The Repeater ?>
+        <div class="row">
+            <?php if( have_rows('unit_box') ): // Repeater Field Name ?>
+                <?php while( have_rows('unit_box') ): the_row(); ?>
+                    <div class="small-12 medium-6 large-6 columns">
+                        <figure class="in-article">
+                            <img class="border-shadow" src="<?php the_sub_field('item_image')?>" alt="">
+                            <figcaption class="caption"><?php the_sub_field('item_caption')?></figcaption>
+                        </figure>
+                    </div>
+                <?php endwhile; ?>
+            <?php endif; ?>
+        </div><!-- end .row -->
+    <?php endif; ?>
 
-    <?php if(get_row_layout() == 'block_box_ii'): // layout: Box II, The Repeater - DONE
+    <?php /* TO DELETE _ OLD
+    <?php if(get_row_layout() == 'block_box_ii'): // layout: Box II, The Repeater
     $rows = get_sub_field('unit_box'); // Repeater Field Name ?>
         <div class="row">
             <?php if ($rows){
@@ -90,9 +107,26 @@
             } ?>
         </div>
     <?php endif; ?>
+    */ ?>
 
 
-    <?php if(get_row_layout() == 'block_box_iii'): // layout: Box III, The Repeater - DONE
+    <?php if(get_row_layout() == 'block_box_iii'): // layout: Box III, The Repeater ?>
+        <div class="row">
+            <?php if( have_rows('unit_box') ): // Repeater Field Name ?>
+                <?php while( have_rows('unit_box') ): the_row(); ?>
+                    <div class="small-12 medium-4 large-4 columns">
+                        <figure class="in-article">
+                            <img class="border-shadow" src="<?php the_sub_field('item_image')?>" alt="">
+                            <figcaption class="caption"><?php the_sub_field('item_caption')?></figcaption>
+                        </figure>
+                    </div>
+                <?php endwhile; ?>
+            <?php endif; ?>
+        </div><!-- end .row -->
+    <?php endif; ?>
+
+    <?php /* TO DELETE _ OLD
+    <?php if(get_row_layout() == 'block_box_iii'): // layout: Box III, The Repeater
     $rows = get_sub_field('unit_box'); // Repeater Field Name ?>
         <div class="row">
             <?php if ($rows){
@@ -107,9 +141,10 @@
             } ?>
         </div>
     <?php endif; ?>
+    ?*/ ?>
 
-
-    <?php if(get_row_layout() == 'block_page_break'): // layout: Page Break - DONE ?>
+    <!-- CHECK, if still live?  -->
+    <?php if(get_row_layout() == 'block_page_break'): // layout: Page Break - old ?>
         <div class="row">
             <div class="small-12 medium-12 large-12 columns">
                 <?php if( get_sub_field('unit_break') )
@@ -121,8 +156,7 @@
         </div>
     <?php endif; ?>
 
-
-     <?php if(get_row_layout() == 'block_page_break_new'): // layout: Page Break NEW - DONE ?>
+     <?php if(get_row_layout() == 'block_page_break_new'): // layout: Page Break - new ?>
         <div class="row">
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <?php if(get_sub_field('unit_separator') == "separator01"): ?>
@@ -142,8 +176,7 @@
         </div>
     <?php endif; ?>
 
-
-    <?php if(get_row_layout() == 'block_footnote'): // layout: Footnote - DONE ?>
+    <?php if(get_row_layout() == 'block_footnote'): // layout: Footnote ?>
         <div class="row">
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <section class="unit_footnote">
@@ -153,8 +186,7 @@
         </div><!-- end .row -->
     <?php endif; ?>
 
-
-    <?php if(get_sub_field('unit_site') == "vimeo"): // If Vimeo Selected - DONE ?>
+    <?php if(get_sub_field('unit_site') == "vimeo"): // If Vimeo Selected ?>
         <div class="row">
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <div class="responsive-embed vimeo">
@@ -164,8 +196,7 @@
         </div>
     <?php endif; ?>
 
-
-    <?php if(get_sub_field('unit_site') == "youtube"): // If YouTube Selected - DONE ?>
+    <?php if(get_sub_field('unit_site') == "youtube"): // If YouTube Selected ?>
         <div class="row">
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <div class="responsive-embed youtube">
@@ -175,8 +206,7 @@
         </div>
     <?php endif; ?>
 
-
-    <?php if(get_row_layout() == 'block_template_part'): // layout: Template Part - DONE ?>
+    <?php if(get_row_layout() == 'block_template_part'): // layout: Template Part ?>
         <div class="row template">
             <?php
                 global $templ;
@@ -188,8 +218,7 @@
         </div><!-- end .row -->
     <?php endif; ?>
 
-
-    <?php if(get_row_layout() == 'block_bullet_list'): // Bullet List - DONE ?>
+    <?php if(get_row_layout() == 'block_bullet_list'): // Bullet List  ?>
         <div class="row">
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <section>
@@ -213,8 +242,8 @@
         </div>
     <?php endif; ?>
 
-
-     <?php if(get_row_layout() == 'block_contact_us'): // layout: Contact Us - NEW ?>
+    <!-- CHECK -->
+    <?php if(get_row_layout() == 'block_contact_us'): // layout: Contact Us ?>
         <div class="row">
             <div class="small-12 medium-centered medium-10 large-10 columns">
                 <section class="unit_contactus" style="padding:25px;background-color:rgba(166,174,72, 0.25);margin-top:25px;">
