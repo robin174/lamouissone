@@ -1821,6 +1821,14 @@
 		"oAP": "/single-custom_type.php",
 		"oF": 0
 		},
+	"/single-olive.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/single-olive.php",
+		"oF": 0
+		},
 	"/single-service.php": {
 		"cB": 0,
 		"ft": 8192,
