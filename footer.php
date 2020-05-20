@@ -28,20 +28,7 @@
 									</section>
 								</section>
 							</div>
-							<div class="large-4 medium-4 columns">
-								<section class="block--weather">
-									<section class="unit--weather">
-										<h2><span>Grasse</span>
-											<sup>Fr</sup>
-										</h2>
-										<h4>21 <sup>&#8451;</sup></h4>
-										<figure>
-											<!-- would you use this for an icon -->
-											<figcaption>Simple description</figcaption>
-										</figure>
-									</section>
-								</section>
-							</div>
+							
 						</div><!-- end #inner-footer -->
 					</footer>
 				</div><!-- end .main-content -->
