@@ -1,7 +1,7 @@
 <?php
 /*
 Template Name: Page - Template
-Template Post Type: page, area, extra
+Template Post Type: page, area, olive, service, extra
 */
 get_header(); ?>
 

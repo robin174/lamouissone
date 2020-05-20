@@ -5,7 +5,7 @@
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <h2 class="font--subheading"><?php the_sub_field('unit_subheading_h2'); ?></h2>
             </div>
-        </div>
+        </div><!-- end .row -->
     <?php endif; ?>
 
     <?php if(get_row_layout() == 'block_subheading_h3'): // Subheading: h3 ?>
@@ -13,7 +13,7 @@
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <h3 class="font--subheading"><?php the_sub_field('unit_subheading_h3'); ?></h3>
             </div>
-        </div>
+        </div><!-- end .row -->
     <?php endif; ?>
 
     <?php if(get_row_layout() == 'block_introduction'): // Paragraph: Introduction ?>
@@ -21,7 +21,7 @@
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <p class="intro"><?php the_sub_field('unit_introduction'); ?></p>
             </div>
-        </div>
+        </div><!-- end .row -->
     <?php endif; ?>
 
     <?php if(get_row_layout() == 'block_paragraph'): // Paragraph: Full Width ?>
@@ -29,7 +29,7 @@
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <?php the_sub_field('unit_paragraph'); ?>
             </div>
-        </div>
+        </div><!-- end .row -->
     <?php endif; ?>
     
     <?php if(get_row_layout() == 'block_image'): // layout: Image / Caption - Full Width?>
@@ -42,7 +42,7 @@
                     <?php endif; ?>
                 </figure>
             </div>
-        </div>
+        </div><!-- end .row -->
     <?php endif; ?>
     
     
@@ -123,7 +123,7 @@
                     </figure>
                 <?php endif; ?>
             </div>
-        </div>
+        </div><!-- end .row -->
     <?php endif; ?>
 
     <?php if(get_row_layout() == 'block_footnote'): // layout: Footnote ?>
@@ -131,7 +131,7 @@
             <div class="small-12 medium-centered medium-10 large-9 columns">
                 <section class="unit_footnote">
                     <p class="note"><?php the_sub_field('unit_note'); ?></p>
-                </div>
+                </section>
             </div>
         </div><!-- end .row -->
     <?php endif; ?>
@@ -143,7 +143,7 @@
                     <iframe width="640" height="360" src="//player.vimeo.com/video/<?php the_sub_field('unit_vimeo_link'); ?>" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
-        </div>
+        </div><!-- end .row -->
     <?php endif; ?>
 
     <?php if(get_sub_field('unit_site') == "youtube"): // If YouTube Selected ?>
@@ -153,7 +153,7 @@
                     <iframe width="560" height="315" src="//www.youtube.com/embed/<?php the_sub_field('unit_youtube_link'); ?>" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
-        </div>
+        </div><!-- end .row -->
     <?php endif; ?>
 
     <?php if(get_row_layout() == 'block_template_part'): // layout: Template Part ?>
@@ -189,7 +189,7 @@
                     <?php endif; ?>
                 </section>
             </div>
-        </div>
+        </div><!-- end .row -->
     <?php endif; ?>
 
     <!-- CHECK -->

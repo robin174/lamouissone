@@ -50,7 +50,7 @@ function lmog_enqueue_scripts() {
         wp_register_style('googleFonts-mont', '//fonts.googleapis.com/css?family=Montserrat:500,600,700');
         wp_enqueue_style( 'googleFonts-mont');
 
-         wp_register_style('googleFonts-gara', '//fonts.googleapis.com/css?family=EB+Garamond');
+        wp_register_style('googleFonts-gara', '//fonts.googleapis.com/css?family=EB+Garamond');
         wp_enqueue_style( 'googleFonts-gara');
      
         /* jquery (google CDN) */
