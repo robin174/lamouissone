@@ -536,10 +536,6 @@ tbody tr:nth-child(even) {
 .menu > li > a {
   padding: 0.5rem 0.35rem; }
 
-.menu > li.menu-text {
-  padding-left: 0;
-  padding-top: 17px; }
-
 .menu.vertical > li:hover {
   background-color: #444522; }
 
