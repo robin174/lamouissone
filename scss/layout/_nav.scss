@@ -14,7 +14,7 @@
 }
 
 .menu > li > a {
-	line-height: 1;
+	// line-height: 1;
 	padding: 0.5rem 0.35rem;
 }
 
@@ -49,15 +49,6 @@
 .dropdown.menu .is-dropdown-submenu-parent.is-right-arrow > a::after {
 	border-color: transparent transparent transparent #fff;
 }
-
-// We are trying to achieve:
-// 1. Title left (reduced in size for mobile?)
-// 2. 'Menu' right on same level as title
-// 3. Dark background and  white text
-// 4. Slightly darker overlay on hover? 
-// 4. Icons for all? or just instagram?
-// 5. Make this universal so we can ship to other sites and becomes defacto?
-// 6. Added new div for texture and applied dark colour to body
 
 // Off Canvas
 .off-canvas {
