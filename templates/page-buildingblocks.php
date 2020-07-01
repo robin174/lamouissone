@@ -44,41 +44,10 @@
             </div>
         </div><!-- end .row -->
     <?php endif; ?>
-    
-    
-    <?php /*  WHAT IS THIS
-    New listing? TO SORT OR DELETE 
-    <?php if(get_row_layout() == 'block_listing'): // layout: Listing, The Repeater
-    $rows = get_sub_field('unit_listing'); // Repeater Field Name ?>
-
-    <!-- Will this be boxed? Add the option to 'box' -->
-        <div class="row">
-            <!-- Image (left) -->
-            <!-- Caption -->
-            <!-- Repeater / bullet: -->
-                <!-- Title -->
-                <!-- Location -->
-                <!-- link (display) -->
-                <!-- link (url) -->
-
-            <!-- Option 02 -->
-                <!-- Image (left) -->
-                <!-- Caption -->
-                <!-- Title -->
-                <!-- Description -->
-                <!-- link (display) -->
-                <!-- link (url) -->
-
-            <!-- Option -->
-                <!-- To box? ie would standout in an article --> 
-        </div>
-    <?php endif; ?>
-    */ ?>
-
 
     <?php if(get_row_layout() == 'block_box_ii'): // layout: Box II, The Repeater ?>
         <div class="row">
-            <?php if( have_rows('unit_box') ): // Repeater Field Name ?>
+            <?php if( have_rows('unit_box') ): ?>
                 <?php while( have_rows('unit_box') ): the_row(); ?>
                     <div class="small-12 medium-6 large-6 columns">
                         <figure class="in-article">
@@ -93,7 +62,7 @@
 
     <?php if(get_row_layout() == 'block_box_iii'): // layout: Box III, The Repeater ?>
         <div class="row">
-            <?php if( have_rows('unit_box') ): // Repeater Field Name ?>
+            <?php if( have_rows('unit_box') ): ?>
                 <?php while( have_rows('unit_box') ): the_row(); ?>
                     <div class="small-12 medium-4 large-4 columns">
                         <figure class="in-article">
@@ -192,8 +161,7 @@
         </div><!-- end .row -->
     <?php endif; ?>
 
-    <!-- CHECK -->
-    <?php if(get_row_layout() == 'block_contact_us'): // layout: Contact Us ?>
+    <?php if(get_row_layout() == 'block_contact_us'): // layout: Contact Us -- CHECK ?>
         <div class="row">
             <div class="small-12 medium-centered medium-10 large-10 columns">
                 <section class="unit_contactus" style="padding:25px;background-color:rgba(166,174,72, 0.25);margin-top:25px;">
@@ -203,7 +171,6 @@
                         </div>
                         <div class="small-12 medium-9 large-9 columns">
                             <section>
-                            <!-- in green, with an icon -->
                                 <!-- Title -->
                                 <h4><?php the_sub_field('unit_contact_title'); ?></h4>
                                 <!-- HTML friendly block -->
@@ -215,6 +182,5 @@
             </div>
         </div><!-- end .row -->
     <?php endif; ?>
-
 
 <?php endwhile; ?>

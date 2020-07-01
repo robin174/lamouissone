@@ -5,7 +5,7 @@
 								<!-- Add fig quote from old homepage -->
 								<section class="block--contact">
 									<section class="unit--contact">
-										<h6 class="footer--title"><i class="far fa-envelope"></i>&nbsp;Contact us</h6>
+										<h6 class="footer--title"><i class="far fa-envelope fa-lg" style="vertical-align:center;"></i>&nbsp;Contact us</h6>
 										<p class="footer--details">For further information and to arrange a visit, please contact:<br>
 										Lady Lockett, Owner - 00 33 698 88 64 10 (English)<br>
 										<a href="mailto:maggielockett@lamouissone.com" title="Email Lady Lockett">maggielockett@lamouissone.com</a><br>
@@ -13,11 +13,11 @@
 										<a href="mailto:cyrilvalherie@lamouissone.com" title="Email Cyril Valherie">cyrilvalherie@lamouissone.com</a></p>
 									</section>
 									<section class="unit--social">
-										<h6 class="footer--title"><i class="fab fa-instagram"></i>&nbsp;Instagram</h6>
+										<h6 class="footer--title"><i class="fab fa-instagram fa-lg" style="vertical-align:center;"></i>&nbsp;Instagram</h6>
 										<p class="footer--details">Keep up-to-date with La Mouissone, follow us on <a href="https://www.instagram.com/lamouissone/" title="La Mouissone on Instagram">Instagram</a></p>
 									</section>
 									<section class="unit--tourist">
-										<h6 class="footer--title"><i class="far fa-compass"></i>&nbsp;Tourist Office</h6>
+										<h6 class="footer--title"><i class="far fa-compass fa-lg" style="vertical-align:center;"></i>&nbsp;Tourist Office</h6>
 										<p class="footer--details">For more information on the local area, please visit:<br>
 										<a href="http://www.grassetourisme.fr" title="Grasse Tourist Office" target="_blank">Grasse Tourist Office</a></p>
 									</section>
