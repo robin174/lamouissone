@@ -1,0 +1,19 @@
+footer, .footer {
+	margin-top: 0;
+}
+
+footer {
+	background: $color-secondary;
+	background-image: url('../images/lm-use-olives-10.png');
+	padding-top: $base-value * 3;
+	padding-bottom: $base-value;
+	box-shadow: inset 0 10px 17px -10px rgba(0,0,0,0.5);
+	border-bottom: 7px solid $color-primary;
+	& section[class^="unit--"] {
+		margin-bottom: $margin-small;
+	}
+}
+
+.single-area footer{
+	margin-top: 0;
+}

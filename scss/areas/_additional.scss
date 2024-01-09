@@ -1,0 +1,59 @@
+section.area--template-additional {
+	background-image: url(../images/lmgh-texture-additional.jpg);
+	padding: $padding-general*2 0;
+	margin-top: $margin-general;
+	box-shadow: inset 0 10px 15px -10px rgba(0,0,0,0.2);
+	h3 {
+		font-family: $font-display;
+		font-weight: $font-bold;
+		color: $color-secondary-dark;
+		line-height: 1.2;
+	}
+	h4 {
+		font-weight: $font-bold;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		font-size: 22px;
+		color: $color-secondary-dark;
+		font-family: $font-display;
+		line-height: 1.2;
+		text-transform: uppercase;
+	}
+
+	& ul {
+		margin-bottom: $margin-general;
+		margin-left: $margin-small;
+	}
+	& ul:last-child {
+		margin-bottom: 0;
+	}
+	li {
+		color: $color-secondary;
+		margin-bottom: $margin-small / 3;
+		line-height: 1.5;
+	}
+	section.additional {
+		margin-bottom: $margin-general * 1.5;
+	}
+	section.additional:last-child {
+		margin-bottom: 0;
+	}
+
+	& span {
+		font-weight: $font-semi-bold;
+	}
+
+	& span.add-title {
+		font-weight: $font-bold;
+	}
+	& span.add-latin {
+		font-weight: $font-bold;
+		font-style: italic;
+	}
+	a {
+		color: $color-primary;
+	}
+	a:hover {
+		color: $color-primary;
+	}
+}

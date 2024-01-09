@@ -1,0 +1,26 @@
+// Colors - Olive Grove (og)
+$color-primary: #A6AE48; // Light Green rgb(166,174,72);
+$color-secondary: #656733; // Olive green rgb(101,103,51);
+
+$texture-primary: url('../images/lmgh-texture.jpg');
+
+$color-primary-dark: darken($color-primary,5%);
+$color-secondary-dark: darken($color-secondary,10%);
+ 
+// Spacing
+$base-value: 1em; // To test ems value as opposed to px
+
+$margin-general: $base-value * 2;
+$margin-small: $base-value;
+$padding-general: $base-value * 2;
+$padding-small: $base-value;
+
+// Font
+$font-sans: 'Montserrat', sans-serif;
+$font-display: 'EB Garamond', serif;
+
+$font-normal: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+
+$letter-spacing: $base-value / 4;
