@@ -99,6 +99,7 @@ function custom_date_month() {
 	echo '<time class="updated" datetime="'. get_the_time('c') .'" pubdate>'. sprintf(__('%s', 'reverie'), get_the_time('F y'), get_the_time()) .'</time>';
 }
 
+// change state of functions.php due to unsuspecting file in scss folder / April 2025
 
 // Sidebars
 // -------------------------------------------------------------
@@ -113,3 +114,4 @@ foreach ($sidebars as $sidebar) {
         'after_title' => '</h6>'
     ));
 }
+
