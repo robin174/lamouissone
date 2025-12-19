@@ -22,7 +22,7 @@
 					    <td>&euro;420 per night</td>
 					</tr>
 					<tr>
-					    <td><strong>Autumn 2025</strong><br>01 September 2026 - 31 October 2026*</td>
+					    <td><strong>Autumn 2026</strong><br>01 September 2026 - 31 October 2026*</td>
 					    <td>&euro;390 per night</td>
 					</tr>
 					<tr>
