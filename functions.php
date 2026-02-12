@@ -38,7 +38,6 @@ require_once(get_template_directory().'/assets/translation/translation.php');
 
 // Customize the WordPress admin
 // require_once(get_template_directory().'/assets/functions/admin.php');
-require_once 'assets/images/playlist-music.png';
 
 // Custom Enqueue Scripts
 // -------------------------------------------------------------
